@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+.navbar {
+    font-family: 'Alata', sans-serif;
+}
+.jumbotron {
+    background-image: url(images/desktop/image-hero.jpg);
+    background-size: cover;
+    color: white;
+}
+.display-4 {
+    border: 3px solid white;
+    margin-top: 20px;
+    font-size: 60px;
+    padding: 20px;
+}
+.main {
+    margin-top: 50px;
+}
+.vr {
+    height: 400px;
+    background-image: url(./images/mobile/image-interactive.jpg);
+}
+.interactive {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0px auto;
+}
+.btn {
+    border: 1px solid black;
+    border-radius: 0px;
+    letter-spacing: 3px;
+}
+.card {
+    border: none;
+    outline: none;
+}
+.deep-earth {
+    background-image: url(/images/mobile/image-deep-earth.jpg);
+    height: 200px;
+}
+.night-arcade {
+    background-image: url(/images/mobile/image-night-arcade.jpg);
+    height: 200px;
+}
+.soccer-team {
+    background-image: url(/images/mobile/image-soccer-team.jpg);
+    height: 200px;
+}
+.the-grid {
+    background-image: url(/images/mobile/image-grid.jpg);
+    height: 200px;
+}
+.from-up {
+    background-image: url(/images/mobile/image-from-above.jpg);
+    height: 200px;
+}
+.pocket {
+    background-image: url(/images/mobile/image-pocket-borealis.jpg);
+    height: 200px;
+}
+.curiosity {
+    background-image: url(/images/mobile/image-curiosity.jpg);
+    height: 200px;
+}
+.fisheye {
+    background-image: url(/images/mobile/image-fisheye.jpg);
+    height: 200px;
+}
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin: 115px 5px 0px 5px;
+}
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 30px 0px;
+}
+.footer-brand {
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+.footer img {
+    margin: 0px 3px;
+}
+.footer a {
+    font-size: 14px;
+    color: white ;
+}
+.footer .copyright {
+    font-size: 14px;
+    color: hsl(0, 0%, 55%);
+}
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .display-4 {
+        width: 60%;
+    }
+    .navbar {
+        padding-top: 20px;
+    }
+    .navbar .navbar-brand {
+        color: white;
+    }
+    .navbar .navbar-nav .nav-link {
+        color: white;
+    }
+    .jumbotron {
+        margin-top: -75px;
+    }
+    .display-4 {
+        font-size: 70px;
+        margin-top: 70px;
+    }
+    .main {
+        margin-top: 100px;
+        position: relative;
+    }
+    .vr {
+        width: 60%;
+        background-size: cover;
+        background-image: url(./images/desktop/image-interactive.jpg);
+    }
+    .interactive {
+        text-align: left;
+        background-color: white;
+        width: 50%;
+        position: absolute;
+        top: 150px;
+        left: 500px;
+    }
+    .deep-earth {
+        background-image: url(/images/desktop/image-deep-earth.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .night-arcade {
+        background-image: url(/images/desktop/image-night-arcade.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .soccer-team {
+        background-image: url(/images/desktop/image-soccer-team.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .the-grid {
+        background-image: url(/images/desktop/image-grid.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .from-up {
+        background-image: url(/images/desktop/image-from-above.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .pocket {
+        background-image: url(/images/desktop/image-pocket-borealis.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .curiosity {
+        background-image: url(/images/desktop/image-curiosity.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .fisheye {
+        background-image: url(/images/desktop/image-fisheye.jpg);
+        height: 400px;
+        background-size: cover;
+    }
+    .card-text {
+        margin: 255px 5px 0px 5px;
+    }
+    .footer {
+        text-align: justify;
+    }
+    .copyright {
+        text-align: right;
+    }
+}
